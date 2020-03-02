@@ -1,4 +1,4 @@
-package com.beershop.beershop.controllers;
+package com.beershop.beershop.controllers.converter;
 
 import com.beershop.beershop.controllers.response.SectionVolumeResponse;
 import com.beershop.beershop.model.SectionVolume;

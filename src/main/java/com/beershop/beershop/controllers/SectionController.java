@@ -1,5 +1,6 @@
 package com.beershop.beershop.controllers;
 
+import com.beershop.beershop.controllers.converter.SectionConverter;
 import com.beershop.beershop.controllers.response.SectionVolumeResponse;
 import com.beershop.beershop.model.SectionVolume;
 import com.beershop.beershop.model.enums.BeverageTypeEnum;
@@ -16,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.beershop.beershop.controllers.SectionConverter.convertToResponse;
+import static com.beershop.beershop.controllers.converter.SectionConverter.convertToResponse;
 
 @RestController
 @RequestMapping("/beershop/v1/section")
