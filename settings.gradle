@@ -1,0 +1,4 @@
+rootProject.name = 'beershop'
+include 'api'
+findProject(':api')?.name = 'beerchop'
+
